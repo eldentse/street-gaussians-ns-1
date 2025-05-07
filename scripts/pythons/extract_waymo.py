@@ -16,7 +16,7 @@ import tensorflow as tf
 if int(tf.__version__.split(".")[0]) < 2:
     tf.enable_eager_execution()
 
-#test
+
 class WaymoDataExtractor:
     RETURN_OK = 0
     RETURN_SKIP = 1
