@@ -83,6 +83,14 @@ conda activate street-gaussians-ns
 pip install --upgrade pip
 ```
 
+This is a separate env for extracting Waymo dataset
+```bash
+conda create --name waymo_extract -y python=3.8
+conda activate street-gaussians-ns
+pip install --upgrade pip
+pip3 install waymo-open-dataset-tf-2-12-0==1.6.7
+```
+
 ### Dependencies
 
 Install PyTorch with CUDA (this repo has been tested with CUDA 11.8) and [tiny-cuda-nn](https://github.com/NVlabs/tiny-cuda-nn).
