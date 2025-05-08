@@ -89,6 +89,7 @@ conda create --name waymo_extract -y python=3.8
 conda activate street-gaussians-ns
 pip install --upgrade pip
 pip3 install waymo-open-dataset-tf-2-12-0==1.6.7
+pip install --upgrade typing_extensions
 ```
 
 ### Dependencies
